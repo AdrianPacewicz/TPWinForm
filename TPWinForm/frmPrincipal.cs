@@ -1,4 +1,5 @@
-﻿using System;
+﻿using negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace TPWinForm
         public frmPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
+            dtgCategorias.DataSource = categoriaNegocio.listar();
         }
     }
 }

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "TPWinForm\WinForms.csproj", "{6DF5110D-B3AA-47EA-BAE2-C2DA92AF66B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{4A9A3E3E-E008-4A99-AB8C-190E9FEDC64B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "Dominio\dominio.csproj", "{4A9A3E3E-E008-4A99-AB8C-190E9FEDC64B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{7513B8D6-C6CB-4F46-BCAB-10592A3E8A6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "Negocio\negocio.csproj", "{7513B8D6-C6CB-4F46-BCAB-10592A3E8A6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
